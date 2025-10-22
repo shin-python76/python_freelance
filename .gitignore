@@ -10,3 +10,6 @@ venv/
 
 # Excelなど生成ファイル
 *.xlsx
+# Excel成果物・一時ファイル
+*.xlsx
+~$*.xlsx
