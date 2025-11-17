@@ -28,3 +28,27 @@
 
 ## ✅ 出力例
 
+Status Code: 200
+📘 ページタイトル: All products | Books to Scrape - Sandbox
+
+=== 書籍タイトル一覧（上位5件） ===
+- A Light in the ...
+- Tipping the Velvet
+- Soumission
+- Sharp Objects
+- Sapiens: A Brief History ...
+
+=== 価格情報（上位5件） ===
+- £51.77
+- £53.74
+- £50.10
+- £47.82
+- £54.23
+</pre>
+
+---
+
+### 💡 補足
+- 書籍タイトルと価格情報は実行時にWebサイトから取得されるため、内容は変わる場合があります。  
+- `requests` でHTMLを取得し、`BeautifulSoup` でタグを解析する基本構成を理解すれば、  
+　他のサイトのデータ収集にも応用可能です。
