@@ -13,3 +13,6 @@ venv/
 # Excel成果物・一時ファイル
 *.xlsx
 ~$*.xlsx
+
+# macOS system files
+.DS_Store
